@@ -1,0 +1,13 @@
+{
+  "name": "advocate-bareed-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campaign website for Advocate Syed Zaheeruddin Bareed - Karnataka South East Graduates Constituency",
+  "scripts": {
+    "dev": "npx --yes serve . -l 5500",
+    "qr": "node scripts/make-qr.js"
+  },
+  "devDependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
